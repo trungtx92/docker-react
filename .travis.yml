@@ -11,11 +11,7 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-<<<<<<< HEAD
-  app: "docker-react"
-=======
   app: "docker-react-travis-ci"
->>>>>>> tonybranch
   env: "DockerReactTravisCi-env"
   bucket_name: "elasticbeanstalk-us-east-2-864591160546"
   bucket_path: "docker-react-travis-ci"
